@@ -1,0 +1,29 @@
+[
+	{
+		"id": 1,
+		"name": "Lynn Location",
+		"street": "435, Ojuelegba St",
+      	"city": "Lynn",
+      	"state": "LA",
+      	"zip": "01902",
+      	"phone": "721-334-552"
+	},
+	{
+		"id": 2,
+		"name": "Anthony Location",
+		"street": "105, Rainbow St",
+      	"city": "Ibadan",
+      	"state": "OY",
+      	"zip": "01112",
+      	"phone": "001-334-552"
+	},
+	{
+		"id": 3,
+		"name": "Forest Location",
+		"street": "309, Lookward St",
+      	"city": "Lynx",
+      	"state": "KW",
+      	"zip": "9782",
+      	"phone": "921-114-002"
+	}
+]
