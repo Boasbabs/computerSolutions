@@ -26,12 +26,11 @@ app.controller("mainController", [ "$scope", function($scope) {
 
 }]);
 
-app.controller("serviceController", [ "$scope", function($scope) {
-
+app.controller("serviceController", [ "$scope", "$http", function($scope, $http) {
+	$http.get("services.json").then(function(response) {
+		$scope.services = response.data;
+	})
 }]);
 app.controller("contactController", [ "$scope", function($scope) {
-
-}]);
-app.controller("serviceController", [ "$scope", function($scope) {
 
 }]);
