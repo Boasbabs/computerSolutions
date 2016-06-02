@@ -22,15 +22,20 @@ app.config(["$routeProvider", function($routeProvider) {
 	.otherwise({redirectTo:"/main"});
 }]);
 
-app.controller("mainController", [ "$scope", function($scope) {
-
-}]);
-
-app.controller("serviceController", [ "$scope", "$http", function($scope, $http) {
+app.controller("mainController", [ "$scope", "$http" , function($scope, $http) {
 	$http.get("services.json").then(function(response) {
 		$scope.services = response.data;
-	})
+		console.log($scope.data);
+	});
 }]);
-app.controller("contactController", [ "$scope", function($scope) {
 
+app.controller("serviceController", ["$scope", "$http", function($scope, $http) {
+	$http.get("services.json").then(function(response) {
+		$scope.services = response.data;
+	});
+}]);
+app.controller("contactController", [ "$scope", "$http", function($scope, $http) {
+	$http.get("locations.json").then(function(response) {
+		$scope.locations = response.data;
+	});
 }]);

@@ -2,24 +2,14 @@
   <div class="col-lg-12">
     <h2>Contact</h2>
     <p>Please email support.fake@computersolutions.com</p>
-    <h3>Location</h3>
-    <ul class="location">
-      <li>Lagos Location</li>
-      <li>435, Ojuelegba St.</li>
-      <li>Victoria Island LA, 1260</li>
-      <li>423-3244-0071</li>
-    </ul>
-    <ul class="location">
-      <li>Lagos Location</li>
-      <li>435, Ojuelegba St.</li>
-      <li>Victoria Island LA, 1260</li>
-      <li>423-3244-0071</li>
-    </ul>
-    <ul class="location">
-      <li>Lagos Location</li>
-      <li>435, Ojuelegba St.</li>
-      <li>Victoria Island LA, 1260</li>
-      <li>423-3244-0071</li>
-    </ul>
+    <div ng-repeat="location in locations">
+      <h3>Location</h3>
+      <ul class="location">
+        <li>{{location.name}}</li>
+        <li>{{location.street}}</li>
+        <li>{{location.city}} {{location.state}}, {{location.zip}}</li>
+        <li>{{location.phone}}</li>
+      </ul>
+    </div>
   </div>
 </div>

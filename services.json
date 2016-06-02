@@ -1,20 +1,20 @@
 [
 	{
 		"id": 1,
-		"name": "Hardware Repair",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, illum! Nulla illo, beatae sint commodi, assumenda expedita nostrum quo culpa quam quibusdam necessitatibus. Minima ullam, odio, culpa itaque explicabo esse! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quam nihil, ab quod doloribus suscipit cupiditate sint odit, provident, libero unde laboriosam culpa. Id magnam voluptatem harum obcaecati hic! Neque."
-		"image":  "computer-icon.png"
+		"name": "Hardwared Repair",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, illum! Nulla illo, beatae sint commodi, assumenda expedita nostrum quo culpa quam quibusdam necessitatibus. Minima ullam, odio, culpa itaque explicabo esse! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quam nihil, ab quod doloribus suscipit cupiditate sint odit, provident, libero unde laboriosam culpa. Id magnam voluptatem harum obcaecati hic! Neque.",
+		"image": "computer-icon.png"
 	},
 	{
 		"id": 2,
 		"name": "Virus removal",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, illum! Nulla illo, beatae sint commodi, assumenda expedita nostrum quo culpa quam quibusdam necessitatibus. Minima ullam, odio, culpa itaque explicabo esse! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quam nihil, ab quod doloribus suscipit cupiditate sint odit, provident, libero unde laboriosam culpa. Id magnam voluptatem harum obcaecati hic! Neque."
-		"image":  "computer-icon.png"
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, illum! Nulla illo, beatae sint commodi, assumenda expedita nostrum quo culpa quam quibusdam necessitatibus. Minima ullam, odio, culpa itaque explicabo esse! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quam nihil, ab quod doloribus suscipit cupiditate sint odit, provident, libero unde laboriosam culpa. Id magnam voluptatem harum obcaecati hic! Neque.",
+		"image": "computer-icon.png"
 	},
 	{
 		"id": 3,
 		"name": "Software Development",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, illum! Nulla illo, beatae sint commodi, assumenda expedita nostrum quo culpa quam quibusdam necessitatibus. Minima ullam, odio, culpa itaque explicabo esse! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quam nihil, ab quod doloribus suscipit cupiditate sint odit, provident, libero unde laboriosam culpa. Id magnam voluptatem harum obcaecati hic! Neque."
-		"image":  "computer-icon.png"
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, illum! Nulla illo, beatae sint commodi, assumenda expedita nostrum quo culpa quam quibusdam necessitatibus. Minima ullam, odio, culpa itaque explicabo esse! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quam nihil, ab quod doloribus suscipit cupiditate sint odit, provident, libero unde laboriosam culpa. Id magnam voluptatem harum obcaecati hic! Neque.",
+		"image": "computer-icon.png"
 	}
 ]
