@@ -7,9 +7,31 @@ app.config(["$routeProvider", function($routeProvider) {
 		templateUrl: "main.html",
 		controller: "mainController"
 	})
-	.otherwise({redirectTo:"/main"})
+	.when("/about", {
+		templateUrl: "about.html",
+		controller: "mainController"
+	})
+	.when("/services", {
+		templateUrl: "services.html",
+		controller: "serviceController"
+	})
+	.when("/contact", {
+		templateUrl: "contact.html",
+		controller: "contactController"
+	})
+	.otherwise({redirectTo:"/main"});
 }]);
 
 app.controller("mainController", [ "$scope", function($scope) {
-	console.log("this is mainControllers");
+
+}]);
+
+app.controller("serviceController", [ "$scope", function($scope) {
+
+}]);
+app.controller("contactController", [ "$scope", function($scope) {
+
+}]);
+app.controller("serviceController", [ "$scope", function($scope) {
+
 }]);
